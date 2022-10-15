@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+expenseTracker/node_modules
+expenseTracker/.pnp
+expenseTracker/.pnp.js
+
+# testing
+expenseTracker/coverage
+
+# production
+expenseTracker/build
+
+# misc
+expenseTracker/.DS_Store
+expenseTracker/.env.local
+expenseTracker/.env.development.local
+expenseTracker/.env.test.local
+expenseTracker/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
